@@ -1,0 +1,525 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    
+}
+
+.first-head{
+    
+    font-weight: 900;
+    font-size: 53px;
+}
+.container{
+    
+    width: 78%;
+    margin: auto;
+    overflow: auto;
+    padding-top: 70px;
+   
+}
+.left-side{
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+}
+.right-side{
+    float: right;
+    width: 50%;
+    text-align: center;
+    align-items: middle;
+    padding-top: 60px;
+}
+.first-sec .container .right-side img{
+    width: 65%;
+    border-radius: 15px;
+    
+    
+}
+.clear-fix{
+    clear: both;
+}
+.first-parg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+}
+.first-btn{
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sec-btn{
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 17px;
+    border: 2px solid #D1D5DC;
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.head-parg{
+    text-align: center;
+}
+.second-sec{
+    margin-top: 40px;
+}
+.head-parg h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.head-parg p{
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+}
+.card-1,
+.card-2,
+.card-3{
+    background-color: #DBEAFE;
+    width: 26%;
+    border-radius: 13px;
+    padding: 30px;
+    float: left;
+}
+.first-card h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.first-card p{
+    padding-bottom: 10px;
+    color: gray;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+.draw{
+    width: 60px;
+    height: 60px;
+    background-color: #155DFC;
+    border-radius: 10px;
+    margin: auto;
+    overflow: auto;
+}
+.draw-1{
+    width: 30px;
+    height: 30px;
+    background-color: white; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+.sec-draw {
+    width: 60px;
+    height: 60px;
+    background-color: #009966;
+    border-radius: 10px;
+    margin: auto;
+    overflow: auto;
+}
+.sec-draw .draw-2{
+    width: 30px;
+    height: 30px;
+    background-color: white; 
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.third-draw{
+    width: 60px;
+    height: 60px;
+    background-color: #9810FA;
+    border-radius: 10px;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.third-draw .draw-3{
+    width: 30px;
+    height: 30px;
+    background-color: white; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+}
+.card-2{
+    background-color: #D0FAE5;
+    margin-left: 20px;
+}
+.card-3{
+    background-color: #F3E8FF;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    margin-left: 20px;
+    
+}
+.third-card h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.third-card p{
+    padding-bottom: 10px;
+    color: gray;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.third-card{
+    
+    overflow: auto;
+}
+.left-img{
+    float: left;
+    width: 55%;
+}
+.left-img img{
+    width: 95%;
+    border-radius: 15px;
+}
+.right-sec{
+    float: right;
+    width: 45%;
+    
+}
+.first-bord{
+    border-left: 4px solid black; 
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+.right-sec h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.first-bord h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.first-bord p{
+    color: gray;
+}
+.opinions{
+    text-align: center;
+}
+.opinions h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.opinions p{
+    color: gray;
+    font-size: 20px;
+}
+.card-one,
+.card-two,
+.card-three{
+    float: left;
+    width: 26%;
+    background-color: #EFF6FF;
+    border: 2px solid #BEDBFF;
+    border-radius: 10px;
+    
+    padding: 25px;
+}
+.card-one .head-div .img img,
+.card-two .head-div .img img,
+.card-three .head-div .img img{
+    width: 100%;
+    width: 70px;
+    border-radius: 50%;
+}
+.head-div .img{
+    float: left;
+    width: 30%;
+}
+.head-div .name{
+    float: right;
+    padding-top: 10px;
+    text-align: left;
+    width: 70%;
+}
+.head-div{
+    overflow: auto;
+    margin-bottom: 20px; 
+}
+.head-div .name p{
+    font-weight: 300;
+}
+.opinion{
+    color: gray;
+    line-height: 25px;
+}
+    
+.card-two{
+    background-color: #ECFDF5;
+    border: 2px solid #CFF7E6;
+    margin-left: 20px;
+}
+.card-three{
+    background-color: #FAF5FF;
+    border:2px solid #F2E7FE;
+    margin-left: 20px;
+}
+.informations{
+    background-color: #F1F5F9;
+    width: 95%;
+    overflow: auto;
+    text-align: center;
+    padding: 50px 0px;
+    border-radius: 20px;
+    border: 1px solid #EEF1F6;
+}
+.avtive-members,
+.trainers,
+.classes,
+.hours{
+    float: left;
+}
+.avtive-members{
+    width: 25%;
+}
+.trainers{
+    width: 25%;
+}
+.classes{
+    width: 25%;
+}
+.hours{
+    width: 25%;
+}
+.informations h3{
+    font-size: 35px;
+}
+.ready-sec{
+    text-align: center;
+    width: 63%;
+    margin: auto;
+}
+.ready-sec h2{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.ready-sec p{
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+}
+.all{
+    background-color: #F9FAFB;
+    padding: 30px;
+    padding-right: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 15px;
+}
+.first-name{
+    float: left;
+    width: 50%;
+}
+.last-name{
+    float: right;
+    width: 50%;
+ 
+}
+.first-name label,
+.last-name label,
+.email label,
+.phone label,
+.member label,
+.goals label{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.first-name input,
+.last-name input,
+.phone input,
+.goals textarea{
+    padding: 20px 0px;
+    padding-left: 20px;
+    width: 94%;
+    border-radius: 8px;
+    border: 1px solid #E5E7EC;
+}
+.first-name input
+{
+    width: 90%;
+}
+.first-name input::placeholder,
+.last-name input::placeholder,
+.email input::placeholder,
+.phone input::placeholder,
+.member select,
+.goals textarea::placeholder{
+  font-size: 18px;   
+  color: gray;        
+}
+.member select{
+    color: black;
+}
+ 
+.name-row,
+.phone,
+.email,
+.member,
+.goals{
+    overflow:auto;
+    margin-bottom: 20px;
+}
+.name-row .first-name,
+.name-row .last-name,
+.email label,
+.phone label,
+.member label,
+.goals label{
+    font-size: 18px;
+}
+
+.email input,
+.phone input,
+.goals textarea
+{
+    width: 97%;
+    padding: 20px 0px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EC;
+}
+textarea{
+    resize: none;
+    padding-bottom: 20px;
+}
+select{
+    width: 99%;
+    height: 70px;
+    border-radius: 8px;
+}
+.form-submit{
+    background-color: #009966;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.last-form p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+}
+.footer-sec{
+    background-color: #101828;
+    color: white;
+    padding-bottom: 60px;
+}
+.footer-sec .container .first h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.footer-sec .container .first p{
+    color: gray;
+    margin-bottom: 24px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.footer-sec .container .first a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+.first,
+.second,
+.third{
+    float: left;
+    width: 26%;
+}
+.first{
+    width: 50%;
+    margin-right: 20px;
+}
+.first p{
+    color: #95969D;
+    font-size: 18px;
+}
+.second{
+    width: 23%;
+}
+.third{
+    width: 22%;
+}
+.second h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.second a{
+    display: block;
+    margin-bottom: 34px;
+    color: gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+.third h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.third h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.third p{
+    color: gray;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.third a{
+    text-decoration: none;
+    color: gray;
+    margin-bottom: 15px;
+    display: block;
+}
+hr{
+    margin: 40px 0px;
+}
+.last-left{
+    float: left;
+    font-size: 14px;
+    color: gray;
+}
+.last-right{
+    float: right;
+    
+}
+.last-right a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+}
